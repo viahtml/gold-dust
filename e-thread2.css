@@ -1,0 +1,103 @@
+ethread2 {
+  position:relative;
+  display:grid;
+  grid-template-rows: 50px auto auto auto;
+  margin:30px auto;
+  width:350px;
+  background:var(--white-hex);
+  border-radius:10px;
+  border:1px solid var(--gray-hex);
+  overflow:hidden;
+}
+
+ethread2 ethread2-top {
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  background:var(--white3-hex);
+  padding:0 20px;
+  border-bottom:1px solid var(--gray-hex);
+}
+
+ethread2 ethread2-top i {
+  color:var(--fontaccent2);
+}
+
+ethread2 ethread2-top span {
+  font:800 11px var(--sans);
+  color:var(--fontaccent2);
+  text-transform: uppercase;
+}
+
+ethread2 ethread2-img {
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+  align-items: center;
+  padding:50px;
+  background:linear-gradient(to bottom right, var(--pastelgradient));
+  border-bottom:1px solid var(--gray-hex);
+}
+
+ethread2 ethread2-img img {
+  width: 250px;
+  border-radius:10px;
+  padding:5px;
+  background:var(--white-hex);
+}
+
+ethread2 ethread2-img img.square {
+  width:100px;
+  height:100px;
+  border-radius:10px;
+}
+
+ethread2 ethread2-img img.circle {
+  width:100px;
+  height:100px;
+  border-radius:100%;
+}
+
+ethread2 .writing {
+  margin:50px;
+}
+
+ethread2 .writing b {
+  color:var(--fontaccent1);
+}
+
+ethread2 .writing i {
+  color:var(--fontaccent2);
+}
+
+ethread2 .writing u {
+  font:400 italic 15px var(--display);
+  text-decoration-color:var(--fontaccent3);
+}
+
+ethread2 .writing a {
+  font:400 italic 15px var(--display);
+  color:var(--fontaccent3);
+}
+
+ethread2 .writing overflow {
+  display:block;
+  max-height:300px;
+  overflow:auto;
+}
+
+ethread2 tag {
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+  align-items: center;
+  background:var(--white3-hex);
+  padding:20px;
+  border-top:1px solid var(--gray-hex);
+}
+
+ethread2 tag a {
+  font: 800 12px var(--sans);
+  text-transform:uppercase;
+}
