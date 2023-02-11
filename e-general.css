@@ -1,0 +1,72 @@
+body {
+  background:var(--white-hex);
+}
+
+announcement {
+  position:relative;
+  display:grid;
+  grid-template-rows: auto auto auto;
+  grid-gap:10px;
+  margin:30px auto;
+  width:80%;
+  overflow:hidden;
+}
+
+announcement-top {
+  background:linear-gradient(to left, var(--pastelgradient));
+  padding:50px;
+  border-radius:10px;
+}
+
+announcement-top span {
+  font:800 italic 30px var(--display);
+  color:var(--white-hex);
+  border-bottom:1px dashed var(--white-hex);
+  text-shadow: 3px 0px 0px var(--fontaccent2);
+}
+
+announcement-body {
+  background:var(--white2-hex);
+  padding:50px;
+  border-radius:10px;
+}
+
+announcement-body .writing b {
+  font-weight:800;
+  color:var(--fontaccent1);
+}
+
+announcement-body .writing i {
+  color:var(--fontaccent2);
+}
+
+announcement-body .writing u {
+  font:400 italic 15px var(--display);
+  text-decoration-color:var(--fontaccent3);
+}
+
+announcement-body .writing a {
+  font:400 italic 15px var(--display);
+  color:var(--fontaccent3);
+}
+
+announcement-bottom {
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  background:var(--white2-hex);
+  padding:10px;
+  border-radius:10px;
+}
+
+announcement-bottom b {
+  text-transform: uppercase;
+  font:800 11px var(--sans);
+  color:var(--fontaccent3);
+}
+
+announcement-bottom i {
+  font-size:11px;
+  color:var(--fontaccent2);
+}
