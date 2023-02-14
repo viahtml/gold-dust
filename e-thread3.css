@@ -23,7 +23,7 @@ ethread3 ethread3-img {
   padding:5px;
   border-radius:10px;
   background:var(--white3-hex);
-  z-index:2;
+  z-index:1;
 }
 
 ethread3 ethread3-img img {
