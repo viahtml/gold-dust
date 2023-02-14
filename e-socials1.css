@@ -129,6 +129,23 @@ econnect1 connect1-right .recent-posts {
   border-radius:10px;
 }
 
+econnect1 connect1-right .img-grid {
+  position:relative;
+  display:grid;
+  grid-template-rows: repeat(3, 130px);
+  grid-template-columns: repeat(3, 130px);
+  grid-gap:10px;
+  background:var(--white-hex);
+  padding:20px;
+  border-radius:10px;
+}
+
+econnect1 connect1-right .img-grid img {
+  width:130px;
+  height:130px;
+  border-radius:10px;
+}
+
 econnect1 connect1-right .recent-posts connect-post {
   position:relative;
   margin-bottom:10px;
