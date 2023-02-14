@@ -1,0 +1,175 @@
+econnect1 {
+  position:relative;
+  display:grid;
+  grid-template-columns: 30% auto;
+  margin:30px auto;
+  width:700px;
+  background:var(--white3-hex);
+  border-radius:10px;
+  box-shadow: 0 0 10px 10px rgba(var(--gray),0.25);
+  overflow:hidden;
+}
+
+econnect1 connect1-left {
+  display:flex;
+  flex-flow:column;
+  justify-content: flex-start;
+  align-items: center;
+  gap:10px;
+  padding:20px;
+  background:linear-gradient(to bottom, var(--pastelgradient));
+  border-right: 1px dashed var(--white-hex);
+}
+
+econnect1 connect1-left img {
+  width:80px;
+  height:80px;
+  padding:5px;
+  background:var(--white-hex);
+  border-radius:100%;
+}
+
+econnect1 connect1-left x {
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  padding:5px;
+  background:var(--white-hex);
+  border-radius:5px;
+  font:800 11px var(--sans);
+  text-transform: uppercase;
+}
+
+econnect1 connect1-left x:nth-child(odd) {
+  color:var(--fontaccent2);
+}
+
+econnect1 connect1-left x:nth-child(even) {
+  color:var(--fontaccent1);
+}
+
+econnect1 connect1-right {
+  position:relative;
+  display:grid;
+  grid-template-rows: auto auto;
+  grid-gap:0px;
+  padding:20px;
+}
+
+econnect1 connect1-right .connect-info {
+  position:relative;
+  display:grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap:5px;
+  margin-bottom:10px;
+  background:var(--white-hex);
+  padding:20px;
+  border-radius:10px;
+}
+
+econnect1 connect1-right .connect-info:only-child {
+  margin-bottom:0;
+}
+
+econnect1 connect1-right .connect-info name {
+  grid-column: span 6;
+  font:800 italic 25px var(--display);
+  text-align:right;
+  margin-bottom:7px;
+}
+
+econnect1 connect1-right .connect-info name span {
+  background-image: linear-gradient(to right, var(--fontgradient));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--clear);
+  text-transform:lowercase;
+  border-bottom:1px dashed var(--black-hex);
+}
+
+econnect1 connect1-right .connect-info x {
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  background:var(--white3-hex);
+  padding:7px;
+  border-radius:5px;
+  font:500 11px var(--sans);
+  text-transform: uppercase;
+}
+
+econnect1 connect1-right .connect-info x b {
+  font-weight:800;
+  color:var(--fontaccent3);
+}
+
+econnect1 connect1-right .connect-info x.two {
+  grid-column: span 2;
+}
+
+econnect1 connect1-right .connect-info x.three {
+  grid-column: span 3;
+}
+
+econnect1 connect1-right .connect-info x.four {
+  grid-column: span 4;
+}
+
+econnect1 connect1-right .connect-info x.six {
+  grid-column: span 6;
+}
+
+econnect1 connect1-right .recent-posts {
+  position:relative;
+  display:block;
+  background:var(--white-hex);
+  padding:20px;
+  border-radius:10px;
+}
+
+econnect1 connect1-right .recent-posts connect-post {
+  position:relative;
+  margin-bottom:10px;
+  display:grid;
+  grid-template-rows: 70px auto;
+  background:var(--white2-hex);
+  border-radius:10px;
+  border:1px solid var(--gray-hex);
+  overflow:hidden;
+}
+
+econnect1 connect1-right .recent-posts connect-post:last-of-type {
+  margin-bottom:0;
+}
+
+econnect1 connect1-right .recent-posts connect-post connect-top {
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 20px;
+  text-transform: uppercase;
+  color:var(--white-hex);
+  font-size:15px;
+  background:linear-gradient(to right, var(--pastelgradient));
+  border-bottom:1px solid var(--gray-hex);
+}
+
+econnect1 connect1-right .recent-posts connect-post connect-top i {
+  font-size:30px;
+}
+
+econnect1 connect1-right .recent-posts connect-post connect-top b::before {
+  content: '@';
+}
+
+econnect1 connect1-right .recent-posts connect-post .connect-body {
+  padding:20px;
+}
+
+econnect1 connect1-right .recent-posts connect-post .connect-body img {
+  width:100%;
+  border-radius:10px;
+}
