@@ -1,0 +1,84 @@
+ethread3 {
+  position:relative;
+  display:grid;
+  grid-template-rows: auto auto auto;
+  margin:30px auto;
+  padding:10px 30px 30px;
+  width:350px;
+  background:var(--white-hex);
+  background-image:linear-gradient(to bottom right, var(--pastelgradient));
+  background-blend-mode: var(--blendmode);
+  border-radius:10px;
+  box-shadow: 0 0 10px 10px rgba(var(--gray),0.25);
+  overflow:hidden;
+}
+
+ethread3 ethread3-img {
+  position:relative;
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+  align-items: center;
+  margin:30px auto 0;
+  padding:5px;
+  border-radius:10px;
+  background:var(--white3-hex);
+  z-index:2;
+}
+
+ethread3 ethread3-img img {
+  width: 80px;
+  height:80px;
+  border-radius:inherit;
+  border:1px dashed var(--fontaccent1);
+}
+
+ethread3 ethread3-img.circle {
+  border-radius:100%;
+}
+
+ethread3 .writing {
+  margin-top:-50px;
+  padding:100px 50px 50px;
+  background:var(--white3-hex);
+  border-radius:10px;
+  box-shadow: 0 0 10px 10px rgba(var(--gray),0.25);
+}
+
+ethread3 tag {
+  display:block;
+  margin-top:5px;
+  text-align:center;
+  padding:7px;
+  background:var(--white3-hex);
+  border-radius:10px;
+}
+
+ethread3 tag a {
+  font:600 13px var(--sans);
+  text-transform:uppercase;
+}
+
+ethread3 .writing b {
+  color:var(--fontaccent1);
+}
+
+ethread3 .writing i {
+  color:var(--fontaccent2);
+}
+
+ethread3 .writing u {
+  font:400 italic 15px var(--display);
+  text-decoration-color:var(--fontaccent3);
+}
+
+ethread3 .writing a {
+  font:400 italic 15px var(--display);
+  color:var(--fontaccent3);
+}
+
+ethread3 .writing overflow {
+  display:block;
+  max-height:300px;
+  overflow:auto;
+}
