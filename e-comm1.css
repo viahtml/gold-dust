@@ -1,0 +1,160 @@
+ecomm1 {
+  position:relative;
+  display:block;
+  margin:30px auto;
+  width:330px;
+  background:linear-gradient(to bottom, var(--pastelgradient));
+  border-radius: 30px;
+  overflow:hidden;
+}
+
+ecomm1 ecomm1-inside {
+  margin:7px;
+  display:grid;
+  grid-template-rows:auto auto auto 80px;
+  background:var(--white-hex);
+  border-radius:30px;
+  border:1px solid var(--gray-hex);
+  overflow:hidden;
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-top {
+  padding:10px;
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  background:var(--white3-hex);
+  font-size:11px;
+  color:var(--fontaccent2);
+  border-bottom:1px solid var(--gray-hex);
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-top  i {
+  margin:3px;
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-contact {
+  padding:30px;
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid var(--gray-hex);
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-contact sendingto {
+  display:flex;
+  flex-flow:column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-contact sendingto span {
+  font:500 italic 20px var(--display);
+  background: linear-gradient(to right, var(--fontgradient));
+  -webkit-background-clip: text;
+  color: rgba(var(--white),0);
+  text-transform: lowercase;
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-contact sendingto::before {
+  content: 'connected to';
+  display:block;
+  font:800 11px var(--sans);
+  text-transform: uppercase;
+  padding:5px 0;
+  border-bottom:1px dashed var(--black-hex);
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-contact contact-img img {
+  width:60px;
+  height:60px;
+  padding:7px;
+  background:var(--white3-hex);
+  border-radius:100%;
+}
+
+ecomm1 .msgs, ecomm1 .call {
+  padding:20px 10px 50px;
+  background:var(--white3-hex);
+  border-bottom:1px solid var(--gray-hex);
+}
+
+ecomm1 .msgs overflow, ecomm1 .call overflow {
+  display:block;
+  max-height:350px;
+  border-radius:10px;
+  padding:0 20px;
+  overflow:auto;
+}
+
+ecomm1 .msgs p {
+  float:left;
+  clear:both;
+  margin:5px 0;
+  padding:10px;
+  font:500 15px var(--sans);
+  background: var(--faint1);
+  border-radius:0 10px 10px 10px;
+}
+
+ecomm1 .msgs note {
+  display:block;
+  clear:both;
+  margin:3px;
+  font:600 12px var(--sans);
+  text-transform:uppercase;
+  text-align: center;
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-bottom {
+  position:relative;
+  display:flex;
+  flex-flow:row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-bottom i {
+  color:var(--fontaccent2);
+}
+
+ecomm1 ecomm1-inside ecomm1-inside-bottom i.big {
+  position:absolute;
+  top:-30px;
+  background:var(--fontaccent2);
+  color:var(--white-hex);
+  width:70px;
+  height:70px;
+  padding:10px;
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+  align-items: center;
+  border:10px solid var(--white-hex);
+  aspect-ratio: 1 / 1;
+  border-radius:100%;
+}
+
+ecomm1 .msgs b {
+  font:800 15px var(--sans);
+  border-bottom:1px dashed var(--black-hex);
+}
+
+ecomm1 .call b {
+  font:800 15px var(--sans);
+  color:var(--fontaccent1);
+  border-bottom:1px dashed var(--black-hex);
+}
+
+ecomm1 .msgs i, ecomm1 .call i {
+  color:var(--fontaccent2);
+}
+
+ecomm1 .msgs u, ecomm1 .msgs a, ecomm1 .call u, ecomm1 .call a {
+  font:800 17px var(--display);
+  text-transform:lowercase;
+  text-decoration: underline;
+  text-decoration-color: var(--fontaccent1);
+}
