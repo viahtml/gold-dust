@@ -1,0 +1,155 @@
+edev1 {
+  position:relative;
+  display:grid;
+  grid-template-rows: auto auto;
+  background:linear-gradient(to bottom, var(--pastelgradient));
+  margin:30px auto;
+  width:600px;
+  border-radius:10px;
+  border:1px solid var(--gray-hex);
+  overflow:hidden;
+}
+
+edev1 edev1-top {
+  display:flex;
+  flex-flow:row;
+  justify-content: center;
+  align-items: center;
+  padding:30px;
+  background:var(--white-hex);
+  border-bottom:1px solid var(--gray-hex);
+}
+
+edev1 edev1-top span {
+  font:800 italic 25px var(--display);
+  color:var(--fontaccent1);
+  border-bottom:1px dashed var(--black-hex);
+}
+
+edev1 edev1-body {
+  margin:20px;
+  padding:30px;
+  background:var(--white-hex);
+  border:1px solid var(--gray-hex);
+  border-radius:10px;
+}
+
+edev1 edev1-body .writing {
+  display:block;
+}
+
+edev1 edev1-body .writing h1,
+edev1 edev1-body .writing h2,
+edev1 edev1-body .writing h3,
+edev1 edev1-body .writing h4,
+edev1 edev1-body .writing h5,
+edev1 edev1-body .writing h6 {
+  font-weight:600;
+  font-style:italic;
+  font-family:var(--display);
+  color:var(--fontaccent2);
+  margin:0;
+}
+
+edev1 edev1-body .writing b {
+  font:800 15px var(--sans);
+  color:var(--fontaccent1);
+  border-bottom:1px dashed var(--black-hex);
+}
+
+edev1 edev1-body .writing i {
+  color:var(--fontaccent2);
+}
+
+edev1 edev1-body .writing u, edev1 edev1-body .writing a {
+  font:800 italic 17px var(--display);
+  text-transform:lowercase;
+  text-decoration: underline;
+  text-decoration-color: var(--fontaccent1);
+}
+
+edev1 edev1-body .writing blockquote {
+  margin:0;
+  padding:30px;
+  background:var(--white3-hex);
+  border-radius:10px;
+}
+
+edev1 edev1-body .writing ol {
+  margin-left:-40px;
+}
+
+edev1 edev1-body .writing ol li {
+  background:var(--white3-hex);
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  margin:5px;
+  padding:15px;
+  border-radius:5px;
+}
+
+edev1 edev1-body .writing ul {
+  padding:20px;
+  background:var(--white3-hex);
+  border-radius:10px;
+}
+
+edev1 edev1-body .writing ul li {
+  background:var(--white-hex);
+  display:flex;
+  flex-flow:row;
+  justify-content: space-between;
+  align-items: center;
+  margin:5px;
+  padding:15px;
+  border-radius:5px;
+}
+
+edev1 edev1-body .writing quote {
+  display:block;
+  font:500 23px var(--sans);
+  text-transform:lowercase;
+  padding:20px 0;
+  text-align:right;
+  border-bottom:1px dashed var(--fontaccent3);
+}
+
+edev1 edev1-body .writing cite {
+  display:block;
+  font:800 13px var(--sans);
+  padding:20px 0;
+  text-transform:uppercase;
+  color:var(--fontaccent3);
+}
+
+edev1 edev1-body .dev-images {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+  margin:10px;
+  padding:20px;
+  background:var(--white3-hex);
+  border-radius:10px;
+}
+
+edev1 edev1-body .dev-images img {
+  padding:7px;
+  background:var(--white-hex);
+  border-radius:15px;
+}
+
+edev1 edev1-body .dev-images img.one {
+  width:100%;
+}
+
+edev1 edev1-body .dev-images img.two {
+  width:calc(50% - 10px);
+}
+
+edev1 edev1-body .dev-images img.three {
+  width:calc(33.33% - 10px);
+}
