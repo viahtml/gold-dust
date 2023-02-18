@@ -70,7 +70,16 @@ edating1 dating-buttons {
 edating1 dating-buttons i {
   padding:20px;
   background:var(--white-hex);
+  color: var(--fontaccent1);
   border-radius:5px;
+}
+
+edating1 dating-buttons i:nth-child(2) {
+  color: var(--fontaccent2);
+}
+
+edating1 dating-buttons i:nth-child(3) {
+  color: var(--fontaccent3);
 }
 
 edating1 dating-info {
