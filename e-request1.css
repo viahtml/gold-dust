@@ -1,4 +1,4 @@
-ereq1 {
+erequest1 {
   position:relative;
   display:grid;
   grid-template-rows: auto auto auto auto auto;
@@ -10,8 +10,8 @@ ereq1 {
   overflow:hidden;
 }
 
-ereq1 ereq1-top {
-  display:flex; 
+erequest1 erequest1-top {
+  display:flex;
   flex-flow:row;
   justify-content: center;
   align-items: center;
@@ -20,19 +20,19 @@ ereq1 ereq1-top {
   border-bottom:1px solid var(--gray-hex);
 }
 
-ereq1 ereq1-top span {
+erequest1 erequest1-top span {
   font:800 italic 25px var(--display);
   color:var(--fontaccent1);
   border-bottom:1px dashed var(--black-hex);
 }
 
-ereq1 ereq1-img {
+erequest1 erequest1-img {
   background:var(--white3-hex);
   padding:30px;
   border-bottom:1px solid var(--gray-hex);
 }
 
-ereq1 ereq1-img img {
+erequest1 erequest1-img img {
   width:100%;
   height:200px;
   margin:20px auto;
@@ -41,7 +41,7 @@ ereq1 ereq1-img img {
   border-radius:15px;
 }
 
-ereq1 ereq1-details {
+erequest1 erequest1-details {
   display:flex;
   flex-flow:row wrap;
   justify-content: space-around;
@@ -52,7 +52,7 @@ ereq1 ereq1-details {
   border-bottom:1px solid var(--gray-hex);
 }
 
-ereq1 ereq1-details x {
+erequest1 erequest1-details x {
   flex-grow:1;
   font:600 11px var(--sans);
   text-transform:uppercase;
@@ -62,11 +62,11 @@ ereq1 ereq1-details x {
   border-radius:5px;
 }
 
-ereq1 ereq1-details x:nth-child(odd) {
+erequest1 erequest1-details x:nth-child(odd) {
   background:var(--faint2);
 }
 
-ereq1 .ereq1-desc {
+erequest1 .erequest1-desc {
   margin:20px;
   padding:20px;
   background:var(--white-hex);
@@ -74,24 +74,24 @@ ereq1 .ereq1-desc {
   border-radius:10px;
 }
 
-ereq1 .ereq1-desc b, ereq1 .character-desc b {
+erequest1 .erequest1-desc b, erequest1 .character-desc b {
   font:800 15px var(--sans);
   color:var(--fontaccent1);
   border-bottom:1px dashed var(--black-hex);
 }
 
-ereq1 .ereq1-desc i,  ereq1 .character-desc i {
+erequest1 .erequest1-desc i,  erequest1 .character-desc i {
   color:var(--fontaccent2);
 }
 
-ereq1 .ereq1-desc u, ereq1 .ereq1-desc a,  ereq1 .character-desc u,  ereq1 .character-desc a {
+erequest1 .erequest1-desc u, erequest1 .erequest1-desc a,  erequest1 .character-desc u,  erequest1 .character-desc a {
   font:800 italic 17px var(--display);
   text-transform:lowercase;
   text-decoration: underline;
   text-decoration-color: var(--fontaccent1);
 }
 
-ereq1 ereq1-characters {
+erequest1 erequest1-characters {
   display:flex;
   flex-flow:column;
   gap:10px;
@@ -99,7 +99,7 @@ ereq1 ereq1-characters {
   padding:20px;
 }
 
-ereq1 ereq1-characters character {
+erequest1 erequest1-characters character {
   display:grid;
   grid-template-rows: auto auto;
   grid-gap:7px;
@@ -108,7 +108,7 @@ ereq1 ereq1-characters character {
   border:1px solid var(--gray-hex);
 }
 
-ereq1 ereq1-characters character character-top {
+erequest1 erequest1-characters character character-top {
   display:flex;
   flex-flow:row;
   justify-content: space-between;
@@ -116,7 +116,7 @@ ereq1 ereq1-characters character character-top {
   padding:10px;
 }
 
-ereq1 ereq1-characters character character-top img {
+erequest1 erequest1-characters character character-top img {
   width:70px;
   height:70px;
   padding:5px;
@@ -124,30 +124,30 @@ ereq1 ereq1-characters character character-top img {
   border-radius:15px;
 }
 
-ereq1 ereq1-characters character character-top character-detail {
+erequest1 erequest1-characters character character-top character-detail {
   display:flex;
   flex-flow:column;
   justify-content: center;
   text-align:right;
 }
 
-ereq1 ereq1-characters character character-top character-detail b {
+erequest1 erequest1-characters character character-top character-detail b {
   font:800 20px var(--sans);
   color:var(--fontaccent2);
   text-transform:lowercase;
 }
 
-ereq1 ereq1-characters character character-top character-detail i {
+erequest1 erequest1-characters character character-top character-detail i {
   font:500 11px var(--sans);
   text-transform: uppercase;
 }
 
-ereq1 ereq1-characters character .character-desc {
+erequest1 erequest1-characters character .character-desc {
   padding: 20px;
   border-top:1px solid var(--gray-hex);
 }
 
-ereq1 ereq1-characters character .character-desc overflow {
+erequest1 erequest1-characters character .character-desc overflow {
   max-height:100px;
   overflow:auto;
 }
