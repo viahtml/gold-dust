@@ -11,7 +11,7 @@ ereq1 {
 }
 
 ereq1 ereq1-top {
-  display:flex;
+  display:flex; 
   flex-flow:row;
   justify-content: center;
   align-items: center;
