@@ -133,7 +133,7 @@ erequest1 erequest1-characters character character-top character-detail {
 
 erequest1 erequest1-characters character character-top character-detail b {
   font:800 20px var(--sans);
-  color:var(--fontaccent2);
+  color:var(--fontaccent1);
   text-transform:lowercase;
 }
 
