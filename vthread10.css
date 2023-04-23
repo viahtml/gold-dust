@@ -43,7 +43,7 @@ vthread10 tag {
 
 vthread10 tag tag-name {
   padding:20px;
-  background:linear-gradient(to bottom right, var(--pastelgradient1));
+  background:linear-gradient(to bottom right, var(--pastelgradient));
   border-radius:10px;
   font:800 18px var(--display);
 }
