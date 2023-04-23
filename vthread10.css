@@ -10,8 +10,8 @@ vthread10 {
   max-width:750px;
   margin:30px auto;
   background:rgba(var(--white));
-  gray:1px solid rgba(var(--gray));
-  gray-radius:20px;
+  border:1px solid rgba(var(--gray));
+  border-radius:20px;
   overflow:hidden;
 }
 
@@ -21,13 +21,13 @@ vthread10 vthread10-image {
   height:500px;
   padding:30px;
   background:linear-gradient(to bottom right, var(--pastelgradient));
-  gray-right:1px solid rgba(var(--gray));
+  border-right:1px solid rgba(var(--gray));
 }
 
 vthread10 img {
   width:240px;
   height:450px;
-  gray-radius:20px;
+  border-radius:20px;
 }
 
 vthread10 tag {
@@ -37,14 +37,14 @@ vthread10 tag {
   justify-content: center;
   align-items: center;
   background:rgba(var(--white2));
-  gray-top:1px solid rgba(var(--gray));
-  gray-right:1px solid rgba(var(--gray));
+  border-top:1px solid rgba(var(--gray));
+  border-right:1px solid rgba(var(--gray));
 }
 
 vthread10 tag tag-name {
   padding:20px;
   background:linear-gradient(to bottom right, var(--pastelgradient1));
-  gray-radius:10px;
+  border-radius:10px;
   font:800 18px var(--display);
 }
 
@@ -56,13 +56,13 @@ vthread10 quote {
   align-items: center;
   padding-right:30px;
   background:rgba(var(--white2));
-  gray-bottom:1px solid rgba(var(--gray));
+  border-bottom:1px solid rgba(var(--gray));
 }
 
 vthread10 quote quote-span {
   padding:20px;
   background:linear-gradient(to bottom right, var(--pastelgradient));
-  gray-radius:10px;
+  border-radius:10px;
   font:800 18px var(--display);
 }
 
@@ -78,8 +78,8 @@ vthread10 .writing writing-body {
   padding:30px;
   background:rgba(var(--white3));
   height:440px;
-  gray-radius:20px;
-  gray:1px solid rgba(var(--gray));
+  border-radius:20px;
+  border:1px solid rgba(var(--gray));
 }
 
 vthread10 .writing overflow {
